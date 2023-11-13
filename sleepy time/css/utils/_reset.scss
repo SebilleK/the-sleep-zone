@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--text-color);
+    // scroll
+    scroll-behavior: smooth;
+    // apple
+    -webkit-font-smoothing: antialiased;
+}

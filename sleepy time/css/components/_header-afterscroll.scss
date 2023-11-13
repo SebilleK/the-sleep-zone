@@ -1,0 +1,17 @@
+.newHeader {
+	border: 2px solid var(--black);
+	border-radius: 5px;
+	padding: 3rem 20rem;
+
+	h1 {
+		color: var(--black);
+	}
+
+    a {
+        color: var(--black);
+
+        &:hover {
+            color: var(--text-color);
+        }
+    }
+}

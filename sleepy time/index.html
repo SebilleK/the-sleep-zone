@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Sleep Zone</title>
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+		<!-- icons as fonts link above -->
+		<link rel="stylesheet" href="css/main.css" />
+
+	</head>
+	<body>
+
+		<div class="scroll-animation" id="scrollAnimation"> 
+			<section class="home header fadeIn scrollAnimation ">
+				<header>
+					<h1>The Sleep Zone</h1>
+					<!-- <i class="bx bx-menu"> -->
+					<nav class="open">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#calculator">Calculator</a></li>
+						</ul>
+					</nav>
+					<!-- </i> -->
+				</header>
+			</section>
+			<section class="hero scrollAnimation ">
+				<h3 class="subtitle1 slideInLeft">Be <span class="mark1">less tired</span></h3>
+				<h3 class="subtitle2 slideInRight">  by knowing <span class="mark2">how to sleep</span></h3>
+			</section>
+			<div class="arrow-container fadeIn shake-vertical"><i class='bx bx-down-arrow-alt'></i></div>
+		</div> 
+
+		
+		
+		<section class="about" id="about">
+			<h3>Understanding Sleep Cycles</h3>
+			<p> Sleep cycles are natural patterns of sleep that our bodies go through during the night.</p> <p>Each sleep cycle typically lasts for about 90 minutes and consists of different stages of sleep, and understanding sleep cycles can help optimize our sleep patterns and improve overall sleep quality. </p><p>It is recommended to aim for a consistent sleep schedule and allow enough time for multiple complete sleep cycles to ensure adequate rest and rejuvenation, but you can also use this to your advantage when you have less time to sleep.</p>
+			</p>
+		</section>
+
+		<section class="about-mobile">
+			<h3>Understanding Sleep Cycles</h3>
+			<p> Sleep cycles are natural patterns of sleep that our bodies go through during the night.</p>
+			<p>Each sleep cycle typically lasts for about 90 minutes and consists of different stages of sleep, and understanding sleep cycles can help optimize our sleep patterns and improve overall sleep quality. </p>
+			<p>It is recommended to aim for a consistent sleep schedule and allow enough time for multiple complete sleep cycles to ensure adequate rest and rejuvenation, but you can also use this to your advantage when you have less time to sleep.</p>
+		</section>
+
+		<section class="calculator" id="calculator">
+			<article class="cycles" id="sleepCycles">
+				<h3>Sleep Cycles Calculator</h3>
+				<p>When will you go to bed?</p>
+				<!-- <button>Now</button> -->
+				<div>
+					<i class='bx bxs-watch'></i>
+					<input type="time" id="timeSleep" name="time" />
+				</div>
+				<p class="feedback" id="feedbackCalculator1"></p>
+
+				<p>The average human takes about 14 minutes to fall asleep, <br> and we already take this into consideration.*</p>
+				<button id="calculateSleepTimes">CALCULATE</button>
+			</article>
+			<article class="bedtime" id="bedtimeCalculator">
+				<h3>Bedtime Calculator</h3>
+				<p>At what time do you usually wake up?</p>
+
+				<div>
+					<i class='bx bxs-watch'></i>
+					<input type="time" id="bedtime" name="time" />
+				</div>
+				<p class="feedback" id="feedbackCalculator2"></p>
+				<p>Calculate instead your best bedtime:*</p>
+				<button id="calculateBedtime" class="calculateBedtime">CALCULATE</button>
+			</article>
+		</section>
+
+		<footer class="footer"><p>created by <a href="https://github.com/SebilleK" target="_blank">SebilleK</a></p><p>*sleep cycles of 90 minutes are considered, up to 7.5h.</p></footer>
+
+
+
+		<script src="js/script.js" type="module"></script>
+	</body>
+</html>

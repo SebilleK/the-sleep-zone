@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+:root {
+	// monochromatic color combo!
+	--background: #5523c7;
+	--black-transparent: rgba(0, 0, 0, 0.813);
+	--logo: #d8cdf1;
+	--black: #000;
+	--text-color: #a288dd;
+	--link-color: #d8cdf1;
+	// use as bg image
+	--gradient: linear-gradient(45deg, #5523c7 0%, #a288dd 80%, #a288dd 100%);
+}

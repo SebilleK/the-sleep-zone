@@ -1,0 +1,13 @@
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	
+
+	&:hover {
+		color: black;
+		transition: 1s ease all;
+	}
+}
+

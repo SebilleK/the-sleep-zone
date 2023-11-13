@@ -1,0 +1,114 @@
+// input check
+.feedback {
+	color: red;
+	font-size: 1rem;
+}
+
+section.calculator {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	/* 	background-color: var(--black); */
+
+	h3 {
+		font-size: 3rem;
+		text-align: center;
+		margin-bottom: 5rem;
+		background-color: var(--black);
+	}
+
+	// calculators (articles)
+
+	article {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--black);
+		margin-bottom: 5rem;
+		margin-top: 2rem;
+		font-size: 1.7rem;
+
+		/* border: 2px solid var(--text-color); */
+		border-radius: 5px;
+		padding: 3rem;
+
+		p {
+			margin: 1.5rem;
+			background-color: var(--black);
+		}
+
+		ul {
+			background-color: var(--black);
+			li {
+				background-color: var(--black);
+			}
+		}
+
+		div {
+			background-color: var(--black);
+			input {
+				background-color: var(--black);
+			}
+		}
+	}
+
+	// sleep cycles calculator article
+
+	.cycles {
+		button {
+			margin-bottom: 1.5rem;
+		}
+		div {
+			display: flex;
+
+			align-items: center;
+			gap: 1rem;
+			.bxs-watch {
+				font-size: 3rem;
+				background-color: var(--black);
+			}
+		}
+
+		ul {
+			li {
+				margin: 1rem;
+			}
+		}
+
+		article.list {
+			margin-top: 0.5rem;
+		}
+	}
+
+	.bedtime {
+		// for some reason i have to repeat the styles for this input
+		input {
+			background-color: var(--background-color);
+			color: var(--text-color);
+			border: 2px solid var(--text-color);
+			font-size: 1.7rem;
+			font-style: bold;
+		}
+
+		div {
+			display: flex;
+
+			align-items: center;
+			gap: 1rem;
+			.bxs-watch {
+				font-size: 3rem;
+				background-color: var(--black);
+			}
+		}
+
+		button.calculateBedtime {
+			margin-top: 1.5rem;
+			margin-bottom: 1.5rem;
+		}
+
+		article.wake {
+			margin-top: 0.7rem;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2.5rem 0;
+
+	h1 {
+		font-size: 4.7rem;
+		padding: 1rem 0;
+	}
+
+	nav {
+		ul {
+			display: flex;
+			font-size: 1.7rem;
+			gap: 1rem;
+		}
+	}
+}
