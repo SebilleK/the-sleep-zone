@@ -2,7 +2,7 @@
 A website with calculators based on sleep cycles.
 _____________________________________________________________________
 
-This is a simple website that has 2 calculators dedicated to sleep, based on how sleep cycles work. There are several websites of the time, most prominently https://sleepytime.info/.  
+This is a simple website that has 2 calculators dedicated to sleep, based on how sleep cycles work. There are several websites of the type, most prominently https://sleepytime.info/.  
 
 Sleep cycles calculator:
 Outputs the best times for the user to get up according to the time they go to bed.
