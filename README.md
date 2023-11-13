@@ -17,6 +17,7 @@ https://boxicons.Com/
 
 
 Animations:
+
 https://www.theappguruz.com/tag-tools/web/CSSAnimations/ (All fades and slides)
 
 https://animista.net/ (Vertical arrow shake)
