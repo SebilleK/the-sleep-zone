@@ -13,7 +13,7 @@ Outputs the best bedtime according to the time the user usually wakes up at.
 ## Credits/Resources
 
 Clock icon:
-https://boxicons.Com/
+https://boxicons.com/
 
 
 Animations:
