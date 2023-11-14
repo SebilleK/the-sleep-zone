@@ -1,5 +1,5 @@
 # the-sleep-zone
-A website with calculators based on sleep cycles. An HTML/CSS (Sass) + JS small project.
+A website with calculators based on sleep cycles. An HTML/CSS (Sass) + JS small project, and also my first attempt at doing a more complete project by myself.
 _____________________________________________________________________
 
 This is a simple website that has 2 calculators dedicated to sleep, based on how sleep cycles work. There are several websites of the type, most prominently https://sleepytime.info/.  
